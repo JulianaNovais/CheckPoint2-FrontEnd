@@ -1,0 +1,1 @@
+Olá ! Este projeto é o Checkpoint02 cujo objetivo é criar um formulário no site para apresentar a minha cidade. Para isso, utilizei tudo o que aprendi até aqui na matéria de frontend ministrada pelo professor Tiago Damasceno no curso Certified Tech Developer da Digital House. Espero que gostem!

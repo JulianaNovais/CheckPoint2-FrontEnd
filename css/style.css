@@ -1,0 +1,442 @@
+/*******************************************************
+* Página de estilos referente ao CHEKPOINT 02 - TURMA 1 - EM GRUPO
+* Laiane Barbalho
+* Juliana Novais
+* Kleber Fernandes
+*********************************************************/
+
+
+
+/*****************************************
+ * Reset global
+ ****************************************/
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+}
+/*********************************************/
+
+
+/*****************************************
+ * Estrutura
+ ****************************************/
+
+body {
+  background-color: rgb(235, 229, 229); /*teste*/
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  font-family: "Montserrat", sans-serif;
+}
+
+/*****************************************
+ * Header
+ ****************************************/
+
+header {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  background-color: #ffce45;
+  width: 100%;
+
+}
+
+.cabecalho {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.cabecalho-logo {
+  text-align: center;
+}
+
+/*****************************************
+ * Video
+ ****************************************/
+
+.video {
+  text-align: center;
+
+}
+
+.video iframe {
+  margin-top: 20px;
+}
+
+
+/*****************************************
+ * Atracoes
+ ****************************************/
+
+.container-flex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.evento {
+  width: 301px;
+  height: 390px;
+  border: 1px solid black;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-bottom: 15px;
+}
+
+.evento img {
+  width: 300px;
+}
+
+div p {
+  margin-top: 20px;
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
+div button {
+  margin-top: 15px;
+  width: 100px;
+}
+
+.evento button {
+  background-color: #B05E27;
+  color: white;
+  border-radius: 10px;
+  font-size: 20px;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color, 500ms, color;
+
+}
+
+.evento button:hover{
+    background-color: rgb(102,43,4);
+  }
+
+
+/*****************************************
+ * Banner Serviços
+ ****************************************/
+
+.servicos {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  justify-content: center;
+  width: 100%;
+  background-color: #ffce45;
+}
+
+.servicos-conteiner {
+  width: 100%;
+  
+}
+
+.servicos-conteudo {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.servicos img {
+  width: ;
+}
+.servicos-img {
+  line-height: 0;
+}
+
+.servicos-titulo {
+  color: #7e370c;
+  font-size: 28px;
+  font-weight: 700;
+  text-align: center;
+  line-height: 38px;
+}
+
+.servicos-lista {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  color: #7e370c;
+  font-size: 18px;
+  font-weight: 700;
+
+}
+
+.lista {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+
+  }
+
+  .lista-item {
+    margin:15px;
+
+  }
+
+  .lista-item a {
+    text-decoration: none;
+    color: #7e370c;
+  }
+
+/*****************************************
+ * Globais
+ ****************************************/
+.cadastro {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+.titulo-cadastro {
+  color: black;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+ .mb-30 {
+  margin-bottom: 30px;
+}
+
+.mb-15 {
+  margin-bottom: 15px;
+}
+
+.mt-30 {
+  margin-top: 30px;
+}
+
+.pt-60 {
+  padding-top: 60px;
+}
+
+.pb-60 {
+  padding-bottom: 60px;
+}
+
+.pt-40 {
+  padding-top: 40px;
+}
+
+.pb-40 {
+  padding-bottom: 40px;
+}
+
+.pl-30 {
+  padding-left: 30px;
+}
+
+.pr-30 {
+  padding-right: 30px;
+}
+
+.linha {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.coluna-1 {
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.coluna-2 {
+  width: 50%;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.d-flex {
+  display:flex;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.justify-end {
+  justify-content: end;
+}
+
+/*****************************************
+ * Formularios
+ ****************************************/
+
+.form {
+  width: 100%;
+  max-width: 1024px;
+  margin-right: auto;
+  margin-left: auto;
+  
+}
+
+.test {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+ .form-title {
+  display: block;
+  font-weight: 700;
+}
+
+.form-input-label {
+  font-weight: 700;
+}
+
+.form-input-text {
+  width: 100%;
+  height: 40px;
+  margin-bottom: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border: 1px solid #999;
+  border-radius: 5px;
+}
+
+.form-input-text:focus {
+  box-shadow: 2px 0 10px 0 #7e370c;
+}
+
+.form-radio {
+  display: flex;
+  align-items: center;
+  margin-right: 15px;
+}
+
+.form-control {
+  display: flex;
+}
+
+.form-input-radio {
+  margin-right: 5px;
+  width: 20px;
+  height: 20px;
+  border: 1px solid #999;
+}
+
+.form-input-checkbox{
+margin-right: 5px;
+width: 20px;
+height: 20px;
+border: 1px solid #999;
+}
+
+/*****************************************
+ * Botões
+ ****************************************/
+
+.botao {
+  width: 200px;
+  height: 45px;
+  font-size: 20px;
+  border-radius: 5px;
+}
+
+.botao-enviar {
+  background-color: #7e370c;
+  color: rgb(234, 236, 221);
+  margin-left: 40px;
+}
+
+.botao-enviar:hover {
+  background-color: #1fb900;
+}
+
+.botao-reset {
+  background-color: #ccc;
+  color: #000;
+}
+
+.botao-reset:hover {
+  background-color: #aaa;
+}
+
+/*****************************************
+ * Footer
+ ****************************************/
+
+ #footer {
+
+  width: 100%;
+  background-color: #b05e27;
+  margin-top: 15px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.redes-sociais {
+  width: 100%;
+  /* max-width: 380px; */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* margin-left: auto;
+  margin-right: auto; */
+}
+
+.redes-sociais li {
+  margin: 20px;
+}
+
+.redes-sociais img {
+  width: 50px;
+  height: 50px;
+}
+
+.assinatura {
+  text-align: center;
+  font-size: 12px;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+}
+
+
+/****************************************** 
+ Media Queries
+*****************************************/
+
+@media (min-width: 1px) and (max-width: 1080px){
+  header div,  .cabecalho {
+    width: 100%;
+    
+  }
+
+  .video, .video iframe{
+    width: 100%;
+    height: 300px;
+    
+    
+
+  }
+
+}
+
+

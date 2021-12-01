@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Checkpoint 2</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Crete+Round:ital@0;1&family=Montserrat:ital,wght@0,300;0,700;0,800;1,500;1,700;1,800&family=Playfair+Display:ital@0;1&family=Roboto:wght@300;500;900&display=swap"
+	 rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+	<header class="cabecalho">
+        <div class="cabecalho-conteiner">
+          <div class="cabecalho-logo">
+            <a href="index.html" title="Checkpoint02">
+              <img src="img/logot.png" alt="logo">
+            </a>
+          </div>
+        </div>			
+	</header>
+  <main>
+        <section class="video">
+            <iframe  width="1080px" height="720px" src="https://www.youtube.com/embed/w3uO2HMTTkk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </section>
+        <div class="container-flex">
+            <div class="evento">
+                <a href="#">
+                    <img src="img/Show.jpg" alt="imagem-espetaculos">
+                </a>
+                <div>
+                  <p>Espetáculos em São Paulo</p>
+                </div>
+                <div>
+                    <button type="button">Reservar</button>                    
+                </div>
+            </div>
+            <div class="evento">
+                <a href="#">
+                    <img src="img/restaurante.jpg" alt="imagem-gastronomia">
+                </a>
+                <div><p>Gastronomia em São Paulo</p></div>
+                <div>
+                    <button type="button">Reservar</button>
+                    
+                </div>
+            </div>
+            <div class="evento">
+                 <a href="#">
+                     <img src="img/turismo.jpg" alt="imagem-turismo">
+                </a>
+                <div><p>Turismo em São Paulo</p></div>
+                <div>
+                    <button type="button">Reservar</button>
+                </div>
+            </div>
+        </div>
+      
+      
+      
+        <section class="servicos">
+            <!-- <div class="servicos-conteiner d-flex justify-between"> -->
+                <div class="servicos-img">
+                    <img src="img/hotel.jpg" alt="imagem hotel">
+                </div>
+                <div class="servicos-conteudo pb-40 pt-40 pl-30 pr-30">
+                    <h2 class="servicos-titulo"> Desfrute os encantos da maior <br>metrópole brasileira </h2>
+                    <ul class="servicos-lista lista">
+                  
+                        <li class="lista-item"> 
+                          <a href="https://www.decolar.com/hoteis/" target="blank">
+                            Hotéis
+                          </a>
+                        </li>
+                        <li class="lista-item">
+                          <a href="https://www.primeiramesa.com.br/" target="blank">
+                          Gastronomia
+                          </a>
+                        </li>
+                        <li class="lista-item">
+                          <a href="https://www.hoteis.com/go/brasil/blog-melhores-parques-de-sao-paulo" target="blank">
+                          Parques
+                          </a>
+                        </li>
+                        <li class="lista-item">
+                          <a href="https://www.gympass.com/academias/em/sp/sao-paulo/sao-paulo" target="blank">
+                          Academias
+                          </a>
+                        </li>
+                    </ul>          
+                </div>      
+            <!-- </div> -->
+            
+        </section>
+
+        <section class="cadastro pt-60 pb-60">
+            <h2 class="titulo-cadastro mb-30">Faça seu cadastro</h2>
+            <form action="index.html" method="post" class="form">
+                <div class="linha">
+                    <div class="coluna-2">
+                        <div class="form-control flex-column"> 
+                            <label class="form-input-label" for="nome">Nome</label>
+                            <input class="form-input-text" type="text" value="" required>
+                        </div>
+                    </div>
+                    <div class="coluna-2">
+                        <div class="form-control flex-column"> 
+                            <label class="form-input-label" for="email">E-mail</label>
+                            <input class="form-input-text" type="text" value="" required>
+                        </div>
+                    </div>
+                    <div class="coluna-2">
+                        <div class="form-control flex-column"> 
+                            <label class="form-input-label" for="telefone">Telefone</label>
+                            <input class="form-input-text" type="text" value="" required>
+                        </div>
+                    </div>
+                    <div class="coluna-2">
+                        <div class="form-control flex-column"> 
+                            <label class="form-input-label" for="data-nascimento">Data de Nascimento</label>
+                            <input class="form-input-text"  type="date" value="1950-01-01" required>
+                        </div>
+                    </div>
+                </div>
+                <div class="linha mb-30">
+                    <div class="coluna-1">
+                        <label  class="form-title mb-30" for="idade">Você é maior de idade?* </label>
+                        <div class="form-control">
+                            <div class="form-radio">
+                                <input class="form-input-radio" type="radio" value="sim" name="idade" id="idade" required>
+                                <label class="form-label-radio" for="sim">Sim</label>
+                            </div>
+                            <div class="form-radio">
+                                <input  class="form-input-radio" type="radio" value="nao" name="idade" id="idade" required>
+                                <label  class="form-label-radio" for="nao">Não</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="linha">
+                    <div class="coluna-2"> 
+                        <label class="form-title mb-30" for="sao-paulo">O que gostaria de ver em São Paulo?*</label>
+                        <div class="form-control flex-column">
+                            <div class="form-checkbox mb-15">
+                                <input class="form-input-checkbox" type="checkbox" value="shows" name="sao-paulo" id="sao-paulo" required>
+                                <label class="form-label-checkbox" for="sao-paulo">Ir a shows</label>
+                            </div>
+                            <div class="form-checkbox mb-15">
+                                <input  class="form-input-checkbox" type="checkbox" value="parques" name="sao-paulo" id="sao-paulo" required>
+                                <label  class="form-label-checkbox" for="sao-paulo">Visitar os Parques</label>
+                            </div>
+                            <div class="form-checkbox">
+                                <input  class="form-input-checkbox" type="checkbox" value="gastronomico" name="sao-paulo" id="sao-paulo" required>
+                                <label  class="form-label-checkbox" for="sao-paulo">Turismo Gastronômico</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="coluna-2"> 
+                        <label  class="form-title mb-30" for="viagem?">Qual o motivo de sua viagem?*</label>
+                        <div class="form-control flex-column">
+                            <div class="form-checkbox mb-15">
+                                <input class="form-input-checkbox" type="checkbox" value="turismo" name="viagem" id="viagem" required>
+                                <label class="form-label-checkbox" for="viagem">Turismo</label>
+                            </div>
+                            <div class="form-checkbox mb-15">
+                                <input  class="form-input-checkbox" type="checkbox" value="estudo" name="viagem" id="viagem" required>
+                                <label  class="form-label-checkbox" for="viagem">Estudo</label>
+                            </div>
+                            <div class="form-checkbox">
+                                <input  class="form-input-checkbox" type="checkbox" value="mudanca" name="viagem" id="viagem" required>
+                                <label  class="form-label-checkbox" for="viagem">Mudança de Residência</label>
+                            </div>
+                    </div>
+                    </div>                
+                </div>
+                <div class="linha align-center justify-end mt-30">
+                    <button class="botao botao-reset" type="reset">Limpar</button>
+                    <button class="botao botao-enviar" type="submit">Enviar</button>
+                </div>
+            </form>
+        </section>
+  </main>
+    <footer id="footer">
+        <ul class="redes-sociais">
+            <li>        
+                <a href="https://www.facebook.com" target="_blank">
+                    <img src="img/facebook_1.png" alt="facebook" class="icone">
+                </a>
+            </li>
+            <li>        
+                <a href="https://www.instagram.com" target="_blank">
+                    <img src="img/instagram_1.png" alt="instagram" class="icone">
+                </a>
+            </li>
+            <li>        
+                <a href="https://www.linkedin.com" target="_blank">
+                    <img src="img/linkedin_1.png" alt="linkedin" class="icone">
+                </a>
+            </li>
+            <li>        
+                <a href="https://www.youtube.com" target="_blank">
+                    <img src="img/youtube_1.png" alt="youtube" class="icone">
+                </a>
+            </li>
+        </ul>
+        <p class="assinatura">Checkpoint 02 - Frontend - Turma 01 NT Certified Tech Developer - 2021 - Laiane Barbalho  |  Juliana Novais  |  Kleber Fernandes</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
